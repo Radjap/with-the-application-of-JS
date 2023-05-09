@@ -139,7 +139,7 @@ h6 {
 }
 
 .header__top-button {
-  margin-right: 25px;
+  /* margin-right: 25px; */
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 11px;
 
@@ -150,6 +150,9 @@ h6 {
 
   padding: 11px 25px;
   transition: 0.3s all linear;
+}
+.header__top-button:not(:last-child) {
+  margin-right: 25px;
 }
 .header__top-button:hover {
   background-color: #ffffff;
@@ -241,6 +244,9 @@ h6 {
   }
   .header__top-link {
     font-size: 25px;
+  }
+  .header__top-button {
+    margin-right: 25px;
   }
 }
 @media (max-width: 912px) {
